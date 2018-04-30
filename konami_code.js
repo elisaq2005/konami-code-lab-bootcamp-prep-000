@@ -8,7 +8,7 @@ function init() {
     if (key === code[index]) {
       index++;
       if (index === code.length) {
-        code.addEventListener('keydown',function(event) {
+        index.addEventListener('keydown',function(event) {
           alert("Hurray!");
           })
         }
