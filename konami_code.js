@@ -10,6 +10,7 @@ function init() {
       if (index === code.length) {
         index.addEventListener('keydown',function(event) {
           alert("Hurray!");
+          index = 0;
           })
         }
     } else {
